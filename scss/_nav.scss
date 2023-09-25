@@ -1,0 +1,16 @@
+.nav{
+    @include MixinMarginPadding(5px);
+    background-color: $primary-color;
+    li {
+        list-style: none;
+    }
+
+    li a{
+        font-size: $font-md;
+        color: $secondary-color;
+    }
+    
+    li a:hover{
+        color: $tertiary-color;
+    }
+}

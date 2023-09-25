@@ -1,0 +1,14 @@
+.footer{
+    @include MixinMarginPadding(3px);
+
+    &:hover{
+        color: $secondary-color;
+        background-color: $tertiary-color;
+        @include Transition(0.5s,1s);
+    }
+    h3{
+        font-size: $font-md;
+        color: $primary-color;
+        text-align: center;
+    }
+}
